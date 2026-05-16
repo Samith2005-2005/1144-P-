@@ -1,0 +1,37 @@
+body{background-image:url('tiger.jpeg');
+	margin:0px 0px 0px 40px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed}
+h3{color:white;
+	font-family:sans-serif;
+	font-size:23px}
+a:hover{color:gray;}
+nav{display:flex;
+	justify-content:space-between;}
+ul{margin:35px 0px 0px 0px;}	
+li{display:inline;
+	margin:20px;
+	font-family:calibri;
+	}
+.home{color:#f7bc19;}
+.gallery{color:#f7bc19;}
+.aboutus , .contact{color:white;}	
+a{text-decoration:none;
+	
+	}
+.wildlife{color:#f7bc19;
+			font-size:20px;
+			font-family:sans-serif}
+.bigtext{color:white;
+		font-size:70px}
+.para{color:white;
+		font-family:calibri;}
+input{border:1px solid #f7bc19;
+		border-radius:5px;
+		background-color:rgba(0,0,0, 0.5);
+		color :white;
+		padding:8px 18px;
+		cursor:pointer;}
+	
+
