@@ -1,0 +1,30 @@
+nav{background-color:#dadbf1;
+	margin:0px 0px 30px 0px}
+.all{justify-content:center;
+		text-align:center;
+		font-size:70px;
+		font-family:calibri;
+		padding:100px}
+input{padding:15px 450px 10px 10px;
+		justify-content:center;
+		border-radius:10px
+		}
+.body{font-family:sans-serif;}
+.grid{display:grid;
+		grid-template-columns: repeat(2, 1fr);
+		max-width:800px;
+		margin:0 auto;
+		gap:50px}
+.card{display:flex;
+		border:1px solid #4C5FD5;
+		border-radius:25px;
+		padding:15px}
+img{width:50px;}
+p{color:gray;}
+footer{display:flex;
+		gap:90px;
+		padding:40px 0px 150px 90px;
+		background-color:black;
+		color:white;
+		margin:40px 0px 0px 0px;
+		font-family:calibri;}
