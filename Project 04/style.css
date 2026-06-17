@@ -1,0 +1,416 @@
+body{
+	
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-family:sans-serif;
+	background-color:white;
+	flex-direction:row;
+	justify-content:flex-end;
+}
+
+.main{
+	background-image:linear-gradient(rgba(0,0,0,0.4)),url("background3.png");
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	height:500px;
+	padding:15px;
+	
+	
+}
+.navbar{
+	background:linear-gradient(rgba(0,0,0,0.3));
+	border-radius:10px;
+	display:flex;
+	justify-content:space-between;
+	flex-direction:row;
+	align-items:center;
+	
+	
+	
+}
+li{
+	display:inline;
+	margin:0px 30px 0px 0px;
+	text-decoration:none;
+	font-size:20px;
+	font-weight:;
+	
+}
+
+.regbtn:hover{
+	cursor:pointer;
+	color:black;
+	}
+.regbtn{
+	padding:10px 20px;
+	border-radius:15px;
+	margin-right:10px;
+	background-color:#68d388;
+	border:0px;
+	color:white;
+	transition:transform 1s ease;
+	
+}
+a, .navlinkreg{
+	
+			color:white;
+			text-decoration:none;}
+
+
+a, .navlink{color:white;
+	text-decoration:none;
+}
+a, .navlink:hover{
+	color:#68d388;
+	transition:0.3s ease;
+}
+.logo{
+	margin:0px 0px 0px 10px;
+	width:60px;
+	padding:10px;
+	
+}
+.mainquotz{
+	display:flex;
+	justify-content:center;
+	color:white;
+	margin:90px 0px 0px 0px;
+	transition:transform 1s ease;
+}
+.mainquotz:hover{
+	cursor:pointer;
+	transform:scale(1.2);
+}
+.mainquotztitle{
+	font-size:60px;
+	
+}
+.mainquotzpara{
+	display:flex;
+	justify-content:center;
+	color:white;
+	font-size:17px;
+}
+.homedesc{
+	margin-top:0px;
+	display:flex;
+	
+	
+}
+
+.homedesc1:hover{
+	cursor:pointer;
+	transform:scale(1.02);
+}
+
+.homedesc1, h3{
+	margin-right:20px;
+}
+.homedesc1{
+	border-radius:0px 0px 200px 0px;
+	background-color:#5a7d5c;
+	padding:20px;
+	line-height:40px;
+	justify-content:center;
+	flex-direction:row;
+	align-items:center;
+	color:white;
+	font-size:18px;
+	text-align:justify;
+	font-family:;
+	transition: 0.5s ease;
+}
+
+.descimg{
+	display:flex;
+	gap:20px;
+	margin:0px 0px 0px 15px;
+	
+}
+.descimg1{
+	border-radius:45px;
+	margin-top:10px;
+	margin-bottom:30px;
+	transition: 0.5s ease;
+}
+.descimg2{
+	border-radius:45px;
+	margin-top:30px;
+	margin-right:20px;
+	transition: 0.5s ease;
+}
+.descimg1:hover{
+	cursor:pointer;
+	transform:scale(1.02);
+}
+.descimg2:hover{
+	cursor:pointer;
+	transform:scale(1.02);
+}
+
+
+ 
+
+
+/*property card*/
+.property{
+	display:flex;
+	justify-content:center;
+}
+.propertycard{
+	display:flex;
+	margin-top:20px;
+	
+}
+
+.propertycard1{
+	background-color:#d9ffdb;
+	padding:30px 60px;
+	margin-right:10px;
+	border-radius:25px;
+	text-align:center;
+	font-size:20px;
+}
+.propertycard2{
+	background-color:#d9ffdb;
+	padding:30px 60px;
+	border-radius:25px;
+	text-align:center;
+	font-size:20px;
+}
+
+
+
+
+/*Footer section*/
+
+footer{
+	background-color:#1e293b;
+	color:#cbd5e1;
+	z-index:1;
+	margin-top:20px;
+	
+}
+.footer-container{
+	display:flex;
+	margin-top:20px;
+	justify-content:space-between;
+	margin:0 auto;
+	
+}
+
+.footer-section{
+	flex:1;
+}
+
+.footer-section{
+		margin-left:40px;
+		
+}
+
+.footer-section h3{
+	color: #facc15;
+}
+.footer-section h3:hover{
+	
+	cursor:pointer;
+    
+}
+
+.footer-section li a{
+	color:#cbd5e1;
+	text-align:center;
+}
+
+
+.footer-section li a:hover{
+	color:#facc15;
+}
+
+
+.copyright{
+	text-align:center;
+	margin-top:30px;
+	
+}
+
+
+/*about.html*/
+
+.aboutall{
+	text-align:center;
+	font-size:40px;
+	
+	
+}
+.about-container{
+	grid-template-columns:repeat(2,1fr);
+	display:flex;
+	justify-content:center;
+	margin:50px;
+	text-align:justify;
+	gap:20px;
+}
+.about2{
+	width:800px;
+	line-height:30px;
+	font-family:cursive;
+	font-size:15px;
+	background-color:#d9ffdb;
+	padding:30px;
+	border-radius:20px;
+}
+.about1 {
+	width:800px;
+	line-height:30px;
+		font-family:cursive;
+	font-size:15px;
+	background-color:#d9ffdb;
+	padding:30px;
+	border-radius:20px;
+}
+
+
+.aboutmain{
+	
+	height:500px;
+	padding:15px;
+	flex:1;
+	
+	position: relative;
+	overflow:hidden;
+    z-index: 1;
+    
+    
+  
+    
+}
+.othernavbar{
+	background:linear-gradient(rgba(0,0,0,0.3));
+	border-radius:10px;
+	display:flex;
+	justify-content:space-between;
+	flex-direction:row;
+	align-items:center;
+	
+	
+	
+}
+.aboutmain .othernavbar .navlink:hover{
+	color:#68d388;
+	transition:0.3s ease;
+}
+.aboutmain .othernavbar .navlink:{
+	color:gray;
+	text-decoration:none;
+}
+.bg-video {
+	 position: absolute;
+	z-index: -1;
+    top:0;
+    left:0;
+	width:1520px;
+	height:100%;
+	object-fit:fill;
+}
+.video1{
+	height:400px;
+}
+	
+ /*house.html*/ 
+ 
+.housecards1{
+	display:flex;
+	margin-top:20px;
+	
+	justify-content:center;
+}
+
+.housecards2{
+	display:flex;
+	margin-top:20px;
+	padding:100px;
+	justify-content:center;
+}
+
+.card:hover{
+	color:lightgray;
+	
+}
+
+.card{
+	border-radius:20px 20px 0px 0px;
+	
+	margin:20px;
+	border:1px solid;
+}
+.card img{
+	border-radius:20px 20px 0px 0px;
+}
+.card img:hover{	
+}
+
+.card h3:hover{
+	color:#68d388;
+}
+.card h3{
+	font-weight:normal;
+	margin-left:10px;
+}
+.card h4{
+	font-weight:normal;
+	margin-left:10px;
+	font-family:cursive;
+}
+.card h2{
+	font-weight:normal;
+	margin-left:10px;
+	font-family:;
+	font-size:;
+}
+.card h2:hover{
+	color:#68d388;
+}
+/*register.html*/ 
+
+
+.form-container{
+	display:flex;
+	justify-content:center
+}
+
+form{
+	margin-top:20px;
+	line-height:27px;
+	flex-direction:column;
+	border:1px solid;
+	padding:80px 30px;
+	border-radius:10px;
+}
+input, .formbox{
+	padding:10px 220px 10px 10px;
+	border-radius:7px;
+	border:1px solid;
+}
+select{
+	padding:10px 270px 10px 10px;
+	border-radius:7px;
+	border:1px solid;
+}
+button{
+	font-size:20px;
+	margin-top:30px;
+	
+}
+
+/*lands.html*/ 
+
+
+
+
+
+    
+    
+  
